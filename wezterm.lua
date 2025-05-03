@@ -4,6 +4,8 @@ require("events")
 
 local config = {}
 
+config.enable_wayland = false
+
 config.keys = keys
 
 config.warn_about_missing_glyphs = false
