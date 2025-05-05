@@ -9,8 +9,6 @@ config.enable_wayland = false
 config.keys = keys
 
 if wezterm.target_triple == 'aarch64-apple-darwin' then
-    -- We are running on macOS; maybe we emit different
-    -- key assignments here?
     config.initial_cols = 100
     config.initial_rows = 30
 end
