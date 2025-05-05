@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 local keys = require("keybinds")
 require("events")
 
-local config = {}
+local config = wezterm.config_builder()
 
 config.enable_wayland = false
 
@@ -28,7 +28,7 @@ config.prefer_egl = true
 config.font = wezterm.font("FiraCode Nerd Font Mono")
 config.font_size = 14
 config.line_height = 1
-config.color_scheme = "Github Dark"
+config.color_scheme = "Obsidian"
 config.colors = {
     cursor_bg = "white",
     cursor_border = "white",
